@@ -1,0 +1,21 @@
+//Copyright (C)2014-2025 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//Tool Version: V1.9.11.01 Education (64-bit)
+//Part Number: GW5A-LV25UG324C2/I1
+//Device: GW5A-25
+//Device Version: A
+//Created Time: Fri 09 11 15:29:45 2026
+
+IO_LOC "o_led3" B9;
+IO_PORT "o_led3" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led2" C14;
+IO_PORT "o_led2" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led1" D14;
+IO_PORT "o_led1" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "i_sw3" C15;
+IO_PORT "i_sw3" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "i_sw2" A15;
+IO_PORT "i_sw2" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "i_sw1" B16;
+IO_PORT "i_sw1" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;

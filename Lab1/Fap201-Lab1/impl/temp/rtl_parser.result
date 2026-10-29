@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "D:/FAP201/Lab/Lab1/Fap201-Lab1/src/Lab01tb.v",
+  "InstLine" : 3,
+  "InstName" : "Lab01_tb",
+  "ModuleFile" : "D:/FAP201/Lab/Lab1/Fap201-Lab1/src/Lab01tb.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "Lab01_tb",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/FAP201/Lab/Lab1/Fap201-Lab1/src/Lab01tb.v",
+    "InstLine" : 19,
+    "InstName" : "uut",
+    "ModuleFile" : "D:/FAP201/Lab/Lab1/Fap201-Lab1/src/Lab01.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "Lab01"
+   }
+  ]
+ }
+]
