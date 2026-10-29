@@ -1,0 +1,57 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'E:\FAP201\LAB\lab4\src\lab4.vhd'
+Analyzing entity 'lab04'("E:\FAP201\LAB\lab4\src\lab4.vhd":4)
+Analyzing architecture 'rtl'("E:\FAP201\LAB\lab4\src\lab4.vhd":17)
+Analyzing VHDL file 'E:\FAP201\LAB\lab4\src\lab4_tb.vhd'
+Analyzing entity 'lab04_tb'("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":3)
+Analyzing architecture 'sim'("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":5)
+Statement containing an event control without an edged expression will not be converted to an explicit state machine("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":60)
+Processing 'lab04_tb(sim)'("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":3)
+WARN  (EX4225) : Delay is ignored for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":12)
+Processing 'lab04(stable_cycles=5)(rtl)'("E:\FAP201\LAB\lab4\src\lab4.vhd":4)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":21)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":22)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":26)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":27)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":28)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":29)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":30)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":34)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":37)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":38)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":39)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":40)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":41)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":44)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":47)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":48)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":49)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":51)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":52)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":53)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":55)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":56)
+WARN  (EX4704) : Wait statement without 'until' clause is not supported for synthesis("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":59)
+NOTE  (EX0101) : Current top module is "lab04_tb"
+WARN  (EX0203) : Top module "lab04_tb" has no ports("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":3)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "lab04" instantiated to "DUT" is swept in optimizing("E:\FAP201\LAB\lab4\src\lab4_tb.vhd":13)
+[95%] Generate netlist file "E:\FAP201\LAB\lab4\impl\gwsynthesis\lab4.vg" completed
+[100%] Generate report file "E:\FAP201\LAB\lab4\impl\gwsynthesis\lab4_syn.rpt.html" completed
+GowinSynthesis finish
