@@ -1,0 +1,16 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25UG324C2/I1">gw5a25a-008</Device>
+    <FileList>
+        <File path="src/Binary_To_7Segment.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Count_And_Toggle.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/Debounce_Filter.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/LFSR_22.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/State_Machine_Game.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/State_Machine_Project_Top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/cont.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

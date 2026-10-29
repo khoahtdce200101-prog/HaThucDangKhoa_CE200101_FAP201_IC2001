@@ -1,0 +1,48 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'D:\FAP201\Lab\l6\fpga_project\src\Binary_To_7Segment.vhd'
+Analyzing entity 'binary_to_7segment'("D:\FAP201\Lab\l6\fpga_project\src\Binary_To_7Segment.vhd":5)
+Analyzing architecture 'rtl'("D:\FAP201\Lab\l6\fpga_project\src\Binary_To_7Segment.vhd":19)
+Analyzing VHDL file 'D:\FAP201\Lab\l6\fpga_project\src\Count_And_Toggle.vhd'
+Analyzing entity 'count_and_toggle'("D:\FAP201\Lab\l6\fpga_project\src\Count_And_Toggle.vhd":5)
+Analyzing architecture 'rtl'("D:\FAP201\Lab\l6\fpga_project\src\Count_And_Toggle.vhd":16)
+Analyzing VHDL file 'D:\FAP201\Lab\l6\fpga_project\src\Debounce_Filter.vhd'
+Analyzing entity 'debounce_filter'("D:\FAP201\Lab\l6\fpga_project\src\Debounce_Filter.vhd":5)
+Analyzing architecture 'rtl'("D:\FAP201\Lab\l6\fpga_project\src\Debounce_Filter.vhd":16)
+Analyzing VHDL file 'D:\FAP201\Lab\l6\fpga_project\src\LFSR_22.vhd'
+Analyzing entity 'lfsr_22'("D:\FAP201\Lab\l6\fpga_project\src\LFSR_22.vhd":4)
+Analyzing architecture 'rtl'("D:\FAP201\Lab\l6\fpga_project\src\LFSR_22.vhd":12)
+Analyzing VHDL file 'D:\FAP201\Lab\l6\fpga_project\src\State_Machine_Game.vhd'
+Analyzing entity 'state_machine_game'("D:\FAP201\Lab\l6\fpga_project\src\State_Machine_Game.vhd":5)
+Analyzing architecture 'rtl'("D:\FAP201\Lab\l6\fpga_project\src\State_Machine_Game.vhd":22)
+Analyzing VHDL file 'D:\FAP201\Lab\l6\fpga_project\src\State_Machine_Project_Top.vhd'
+Analyzing entity 'state_machine_project_top'("D:\FAP201\Lab\l6\fpga_project\src\State_Machine_Project_Top.vhd":5)
+Analyzing architecture 'rtl'("D:\FAP201\Lab\l6\fpga_project\src\State_Machine_Project_Top.vhd":24)
+Processing 'State_Machine_Project_Top(RTL)'("D:\FAP201\Lab\l6\fpga_project\src\State_Machine_Project_Top.vhd":5)
+Processing 'Debounce_Filter(RTL)'("D:\FAP201\Lab\l6\fpga_project\src\Debounce_Filter.vhd":5)
+Processing 'State_Machine_Game(RTL)'("D:\FAP201\Lab\l6\fpga_project\src\State_Machine_Game.vhd":5)
+'others' clause is never selected("D:\FAP201\Lab\l6\fpga_project\src\State_Machine_Game.vhd":103)
+Processing 'Count_And_Toggle(RTL)'("D:\FAP201\Lab\l6\fpga_project\src\Count_And_Toggle.vhd":5)
+Processing 'LFSR_22(RTL)'("D:\FAP201\Lab\l6\fpga_project\src\LFSR_22.vhd":4)
+Processing 'Binary_To_7Segment(RTL)'("D:\FAP201\Lab\l6\fpga_project\src\Binary_To_7Segment.vhd":5)
+'others' clause is never selected("D:\FAP201\Lab\l6\fpga_project\src\Binary_To_7Segment.vhd":42)
+NOTE  (EX0101) : Current top module is "State_Machine_Project_Top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\FAP201\Lab\l6\fpga_project\impl\gwsynthesis\fpga_project.vg" completed
+[100%] Generate report file "D:\FAP201\Lab\l6\fpga_project\impl\gwsynthesis\fpga_project_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,70 @@
+[
+ {
+  "InstFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Project_Top.vhd",
+  "InstLine" : 5,
+  "InstName" : "State_Machine_Project_Top",
+  "ModuleFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Project_Top.vhd",
+  "ModuleLine" : 5,
+  "ModuleName" : "State_Machine_Project_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Project_Top.vhd",
+    "InstLine" : 52,
+    "InstName" : "Debounce_SW1",
+    "ModuleFile" : "D:/FAP201/Lab/l6/fpga_project/src/Debounce_Filter.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Debounce_Filter"
+   },
+   {
+    "InstFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Project_Top.vhd",
+    "InstLine" : 60,
+    "InstName" : "Debounce_SW2",
+    "ModuleFile" : "D:/FAP201/Lab/l6/fpga_project/src/Debounce_Filter.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Debounce_Filter"
+   },
+   {
+    "InstFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Project_Top.vhd",
+    "InstLine" : 68,
+    "InstName" : "Debounce_SW3",
+    "ModuleFile" : "D:/FAP201/Lab/l6/fpga_project/src/Debounce_Filter.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Debounce_Filter"
+   },
+   {
+    "InstFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Project_Top.vhd",
+    "InstLine" : 76,
+    "InstName" : "Game_Inst",
+    "ModuleFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Game.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "State_Machine_Game",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Game.vhd",
+      "InstLine" : 162,
+      "InstName" : "Count_Inst",
+      "ModuleFile" : "D:/FAP201/Lab/l6/fpga_project/src/Count_And_Toggle.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "Count_And_Toggle"
+     },
+     {
+      "InstFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Game.vhd",
+      "InstLine" : 172,
+      "InstName" : "LFSR_Inst",
+      "ModuleFile" : "D:/FAP201/Lab/l6/fpga_project/src/LFSR_22.vhd",
+      "ModuleLine" : 4,
+      "ModuleName" : "LFSR_22"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Project_Top.vhd",
+    "InstLine" : 92,
+    "InstName" : "SevenSeg_Inst",
+    "ModuleFile" : "D:/FAP201/Lab/l6/fpga_project/src/Binary_To_7Segment.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "Binary_To_7Segment"
+   }
+  ]
+ }
+]

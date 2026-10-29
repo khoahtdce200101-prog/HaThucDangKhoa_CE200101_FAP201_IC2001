@@ -1,0 +1,43 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Library" : "work",
+   "Path" : "D:/FAP201/Lab/l6/fpga_project/src/Binary_To_7Segment.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/FAP201/Lab/l6/fpga_project/src/Count_And_Toggle.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/FAP201/Lab/l6/fpga_project/src/Debounce_Filter.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/FAP201/Lab/l6/fpga_project/src/LFSR_22.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Game.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/FAP201/Lab/l6/fpga_project/src/State_Machine_Project_Top.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/FAP201/Lab/l6/fpga_project/impl/temp/rtl_parser.result",
+ "Top" : "State_Machine_Project_Top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

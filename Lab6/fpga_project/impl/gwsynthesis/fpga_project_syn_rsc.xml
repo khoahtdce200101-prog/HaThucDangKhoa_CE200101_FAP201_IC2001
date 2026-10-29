@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="State_Machine_Project_Top" Register="18" Alu="13" Lut="18" T_Register="169(18)" T_Alu="90(13)" T_Lut="144(18)">
+ <SubModule name="Debounce_SW1" Register="20" Alu="18" Lut="12" T_Register="20(20)" T_Alu="18(18)" T_Lut="12(12)"/>
+ <SubModule name="Debounce_SW2" Register="20" Alu="18" Lut="12" T_Register="20(20)" T_Alu="18(18)" T_Lut="12(12)"/>
+ <SubModule name="Debounce_SW3" Register="20" Alu="18" Lut="12" T_Register="20(20)" T_Alu="18(18)" T_Lut="12(12)"/>
+ <SubModule name="Game_Inst" Register="37" Lut="71" T_Register="84(37)" T_Alu="23(0)" T_Lut="83(71)">
+  <SubModule name="Count_Inst" Register="25" Alu="23" Lut="11" T_Register="25(25)" T_Alu="23(23)" T_Lut="11(11)"/>
+  <SubModule name="LFSR_Inst" Register="22" Lut="1" T_Register="22(22)" T_Lut="1(1)"/>
+ </SubModule>
+ <SubModule name="SevenSeg_Inst" Register="7" Lut="7" T_Register="7(7)" T_Lut="7(7)"/>
+</Module>
